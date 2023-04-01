@@ -43,11 +43,32 @@ body{
 
 .img-div{
     display: grid;
-    grid-template-columns: auto  auto auto;
+    grid-template-columns: auto  auto;
+    max-width: 100%;
+    flex-basis: 50%;
+    align-items:center;
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px 0 0;
 }
 
-.qoute {
-    font-family: cursive;
-    text-align:center;
-    text-align:calc(50%)
+.img2-div .img-breakfast{
+    display: block;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+.qoute{
+    font-family:cursive;
+    text-align:justify;
+    margin-left: 110%;
+    margin-right: 110%;
+    margin-bottom: 125px;
+}
+
+.text{
+    font-family:sans-serif;
+    margin-top: 55px;
+    margin-right: 10%;
 }
