@@ -41,23 +41,24 @@ body{
 .navbar a:hover{
     color: rgb(146, 146, 146);
 }
-.img2-div .img-jennifer{
-    display: block;
-    margin-right: auto;
-    margin-top: 4%;
-    height: 700px;
-    width: 500px;
-}
 
-.text{
-    font-family:sans-serif;
-    float: left;
-    margin-top: auto;
-    position: absolute;
-}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  
+.text {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+  }
 
 .container{
     max-width: 1170px;
+    margin: auto;
 }
 
 .row{
@@ -68,6 +69,13 @@ body{
 ul{
     list-style: none;
     font-family: sans-serif;
+}
+
+.qoute{
+    font-family:cursive;
+    font-size: 20px;
+    padding-left: 55px;
+    margin: auto;
 }
 
 .footer{
