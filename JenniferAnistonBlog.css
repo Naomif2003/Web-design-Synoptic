@@ -61,15 +61,16 @@ body{
 .qoute{
     font-family:cursive;
     text-align:justify;
-    margin-left: 110%;
-    margin-right: 110%;
+    padding-left: 250%;
+    padding-right: 250%;
     margin-bottom: 125px;
 }
 
 .text{
     font-family:sans-serif;
     margin-top: 55px;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container{

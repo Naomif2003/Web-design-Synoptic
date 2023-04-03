@@ -58,6 +58,8 @@ body{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container{
