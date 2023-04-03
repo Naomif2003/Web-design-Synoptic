@@ -41,28 +41,23 @@ body{
 .navbar a:hover{
     color: rgb(146, 146, 146);
 }
-
-
-.img2-div .img-flowers{
+.img2-div .img-jennifer{
     display: block;
-    margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
-    height: 500px;
-    width: 900px;
+    height: 700px;
+    width: 500px;
 }
 
 .text{
     font-family:sans-serif;
-    margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+    float: left;
+    margin-top: auto;
+    position: absolute;
 }
 
 .container{
     max-width: 1170px;
-    margin: auto;
 }
 
 .row{
